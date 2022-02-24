@@ -44,6 +44,3 @@ README.md                                   # all you need to know is in here
 An ARIMA model was used to forcast time series. Based on the World Health Organization target of reducing anaemia by 50% by 2025 (see policy brief https://apps.who.int/iris/bitstream/handle/10665/148556/WHO_NMH_NHD_14.4_eng.pdf?ua=1), a forcast of 5 years was selected. This was applied to a list of the top 30 most populated countries.
 
 
-
-
-
