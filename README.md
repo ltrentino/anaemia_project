@@ -7,12 +7,12 @@ This project creates a machine learning model to forecast global anaemia, and al
 
 # Motivation
 
-The topic of anaemia is important to me because it is a serious global public health problem that particularly affects young children and women. WHO estimates that 42% of children less than 5 years of age and 40% of pregnant women worldwide are anaemic.
+The topic of anaemia is important to me because it is a serious global public health problem that particularly affects young children and women. WHO estimates that 42% of children less than 5 years of age and 40% of pregnant women worldwide are anaemic. (https://www.who.int/health-topics/anaemia#tab=tab_1)
 
 
 # Data source
 
-The WHO odata api (link) was used to retrieve 19 years of data (2000 to 2019) at the country level. The initial indicator selected was Anaemia in women of reproductive age (prevalence and numbers). 
+The WHO odata api (https://www.who.int/data/gho/info/gho-odata-api) was used to retrieve 19 years of data (2000 to 2019) at the country level. The initial indicator selected was Anaemia in women of reproductive age (prevalence and numbers). 
 
 
 # App hosting
