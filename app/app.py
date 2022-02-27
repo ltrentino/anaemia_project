@@ -16,12 +16,13 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/forecast")
+@app.route("/dashboard.html")
+def dashboard():
+    return render_template("dashboard.html")
+
+@app.route("/forecast.html")
 def forecast():
     return render_template("forecast.html")
-
-
-# API routes 
 
 
 
