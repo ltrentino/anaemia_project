@@ -9,3 +9,4 @@ matplotlib @ file:///C:/ci/matplotlib-suite_1628011511716/work
 matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
 statsmodels==0.13.2
 requests==2.27.1
+numpy @ file:///C:/ci/numpy_and_numpy_base_1626271861146/work
