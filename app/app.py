@@ -3,7 +3,11 @@ import pandas as pd
 from sqlalchemy import create_engine
 from sqlalchemy.engine import URL
 import os 
-# from prediction import predict
+
+
+
+# df = pd.read_csv("anaemia.csv")
+# data = df.to_json(orient='records')
 
 # create app 
 app = Flask(__name__)
@@ -23,6 +27,10 @@ def dashboard():
 @app.route("/forecast.html")
 def forecast():
     return render_template("forecast.html")
+
+# @app.route("/api.html")
+# def api():
+#     return render_template("api.html")
 
 
 
