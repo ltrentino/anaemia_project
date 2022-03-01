@@ -1,4 +1,5 @@
-# ANAEMIA PROJECT - final UWA Data Analysis Bootcamp project
+# GLOBAL ANAEMIA - final UWA Data Analysis Bootcamp project
+![Homepage](app/static/images/presentation_title.png)
 
 # Purpose
 
@@ -8,6 +9,7 @@ This project creates a machine learning model to forecast global anaemia, and al
 # Motivation
 
 The topic of anaemia is important to me because it is a serious global public health problem that particularly affects young children and women. WHO estimates that 42% of children less than 5 years of age and 40% of pregnant women worldwide are anaemic. (https://www.who.int/health-topics/anaemia#tab=tab_1)
+![Homepage](app/static/images/screenshot_motivation.png)
 
 
 # Data source
@@ -45,19 +47,36 @@ README.md                                   # all you need to know is in here
 
 ```
 
+# Screen shots of website presentation
 
-# Screen shots of website appearance
-## homepage
+![Homepage](app/static/images/structure_diagram.png)
+![Homepage](app/static/images/screenshot_anaemia_csv.png)
+![Homepage](app/static/images/screenshot_prediction_model.png)
+![Homepage](app/static/images/screenshot_model_validation.png)
+
+
+
+
+
+# homepage appearance
 ![Homepage](app/static/images/homepage.png)
 
 
-
-## main interactive dashboard
+# main interactive dashboard
 ![Homepage](app/static/images/dashboard.png)
 
 
-## Interactive forecast dashboard
+# Interactive forecast dashboard
 ### The user can choose from a list of 50 countries. The forecast shows the estimate value and the 95% Confidence Interval.
 ### The dashboard also shows the relevant WHO target (50% reduction from year 2014)
 ![Homepage](app/static/images/forecast.png)
+
+
+
+# Deployment
+This app is deployed on Heroku
+https://anaemia-project.herokuapp.com/
+
+
+
 
