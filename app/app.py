@@ -1,5 +1,5 @@
 from flask import Flask, render_template 
-# import pandas as pd
+import pandas as pd
 # from sqlalchemy import create_engine
 # from sqlalchemy.engine import URL
 import os 
@@ -28,9 +28,21 @@ def dashboard():
 def forecast():
     return render_template("forecast.html")
 
-# @app.route("/api.html")
-# def api():
-#     return render_template("api.html")
+
+@app.route("/api/data")
+def data():
+    df = pd.read_csv("https://anaemia-app-bucket-01.s3.ap-southeast-2.amazonaws.com/anaemia.csv")
+    data = df.to_dict(orient = 'records')
+    return {'data':data}
+
+
+
+@app.route("/api/predict")
+def predict():
+    df = pd.read_csv("https://anaemia-app-bucket-01.s3.ap-southeast-2.amazonaws.com/anaemia_forecast.csv")
+    data = df.to_dict(orient = 'records')
+    return {'data':data}
+
 
 
 
