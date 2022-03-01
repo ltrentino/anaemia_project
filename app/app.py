@@ -1,5 +1,5 @@
 from flask import Flask, render_template 
-import pandas as pd
+# import pandas as pd
 # from sqlalchemy import create_engine
 # from sqlalchemy.engine import URL
 import os 
