@@ -10,7 +10,8 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="/">Global Anaemia Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -19,11 +20,12 @@
         <li class="nav-item active">
           <a class="nav-link" href="dashboard.html">Dashboard</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="forecast.html">Forecast</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.who.int/data/gho/data/themes/topics/anaemia_in_women_and_children" target="_blank" rel="noopener noreferrer" >WHO link</a>
+            <li class="nav-item">
+          <a class="nav-link" href="https://www.who.int/data/gho/data/themes/topics/anaemia_in_women_and_children" 
+            target="_blank" rel="noopener noreferrer" >WHO link</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/api/data" 
@@ -33,40 +35,32 @@
           <a class="nav-link" href="/api/predict" 
             target="_blank" rel="noopener noreferrer" >API predict</a>
         </li>
+        
       </ul>
     </div>
   </nav>
 
-    <div class="container">
-      <h1 class="display-5">Anaemia in women of reproductive age</h1>
+    <div class="container-fluid">
+      <h3 class="display-5">Anaemia in women of reproductive age</h3>
       <hr class="my-4">
       <div class='tableauPlaceholder' id='viz1644243003570' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='project3_wip&#47;Anaemiainwomenofreproductiveage' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1644243003570');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='927px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
     
       <hr>
-      <!-- <div class="card text-center"> -->
-      <a class="badge bg-light text-dark">© Laura Trentino, 2022</a>
-      <a class="badge bg-light text-dark"><a href = "https://au.linkedin.com/in/laura-trentino-526763216">Linkedin</a>
-      <a class="badge bg-light text-dark"><a href = "https://github.com/ltrentino/anaemia_project">Github</a>
-      <!-- </div> -->
-
-
-
     </div>
-  <!-- <div class="container"> -->
-    <!-- <div class="jumbotron"> -->
-      <!-- <h1 class="display-5">Anaemia in women of reproductive age</h1> -->
-       
-      
-        <!-- <hr class="my-4"> -->
-      <!-- <div class='tableauPlaceholder' id='viz1644243003570' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='project3_wip&#47;Anaemiainwomenofreproductiveage' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1644243003570');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='927px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script> -->
-
-    <!-- </div> -->
-  <!-- </div> -->
-
+ 
+    
+<nav class="navbar fixed-bottom navbar-light bg-light">
+  <div class="navbar-text"></div>
+  <div class="navbar-text" href="#">© Laura Trentino, 2022
+    <a class="badge" href="https://au.linkedin.com/in/laura-trentino-526763216">Linkedin</a>
+    <a class="badge" href="https://github.com/ltrentino/anaemia_project">Github</a>
+  </div>
+</nav>
   
-
+</body>
   
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+</html>

@@ -21,6 +21,8 @@ The WHO odata api (https://www.who.int/data/gho/info/gho-odata-api) was used to 
 
 An ARIMA model was used to forecast time series. Based on the World Health Organization target of reducing anaemia by 50% by 2025 (see policy brief https://apps.who.int/iris/bitstream/handle/10665/148556/WHO_NMH_NHD_14.4_eng.pdf?ua=1), a forcast of 5 years was selected. This was applied to a list of the top 50 most populated countries.
 
+To measure the model accuracy sklearn.metrics MAPE and RMSE were used, with MAPE scores ranging from 0.05 to 3.95 (96.05-99.05% accuracy)
+
 # App hosting
 
 The app is hosted on ...AWS / Horoku?
